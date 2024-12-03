@@ -10,7 +10,7 @@ export default function Home() {
   const today = new Date();
 
   const diff = today.getTime() - date.getTime();
-  const diffDay = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const diffDay = Math.floor(diff / (1000 * 60 * 60 * 24)) + 1;
 
   return (
     <>
